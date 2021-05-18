@@ -84,3 +84,10 @@ body {
 .text a:hover {
     text-decoration: underline;
 }
+
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
