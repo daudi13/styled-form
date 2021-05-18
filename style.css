@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Muli', sans-serif;
+    background-color: steelblue;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.form-control {
+    position: relative;
+    width: 300px;
+    margin: 20px 0 40px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form-control input:focus,
+.form-control input:valid,
+.btn:focus {
+    outline: 0;
+}
+
+
+.btn {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    font-size: 12px;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
